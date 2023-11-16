@@ -68,7 +68,7 @@ const ProjectCard = (props: Props) => {
       <div
         className={twMerge(
           clsx(
-            "text-left w-full max-w-[400px] h-auto min-h-[20rem] px-4 mx-auto flex flex-col justify-center shadow-md rounded-sm md:relative md:flex-1 md:block md:min-h-[unset] md:w-auto md:max-w-[unset] md:mx-0 md:shadow-none",
+            "text-left w-full max-w-[400px] h-auto min-h-[20rem] px-4 mx-auto flex flex-col justify-center shadow-md rounded-sm dark:bg-gray-950 md:relative md:flex-1 md:block md:min-h-[unset] md:w-auto md:max-w-[unset] md:mx-0 md:shadow-none md:dark:bg-transparent",
             props.orientation === "right" ? "md:text-right" : "md:text-left"
           )
         )}

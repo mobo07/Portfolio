@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { motion } from "framer-motion";
+import MobileSocials from "./components/MobileSocials";
 
 const variants = {
   hidden: {
@@ -67,6 +68,8 @@ export default function Home() {
       <Projects />
       {/* Contact Section  */}
       <Contact />
+      {/* Social Links for Mobile  */}
+      <MobileSocials />
       {/* Acknowledgment */}
       <div className="w-full my-2 text-xs text-center">
         <span>

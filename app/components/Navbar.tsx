@@ -63,8 +63,8 @@ const Navbar = () => {
         initial="hidden"
         animate="visible"
         className={`${
-          showMenu ? "flex" : "hidden"
-        } flex-col items-center justify-center gap-5 fixed top-0 right-0 z-50 w-[60%] max-w-xs h-screen bg-white dark:bg-gray-950 md:flex md:text-sm md:flex-row md:static md:bg-transparent md:h-full md:w-auto md:max-w-none md:gap-0 md:dark:bg-inherit`}
+          showMenu ? "translate-x-0" : "translate-x-full"
+        } flex flex-col items-center justify-center gap-5 fixed top-0 right-0 z-50 w-[60%] max-w-xs h-screen bg-white transition duration-200 ease-in-out dark:bg-gray-950 md:text-sm md:flex-row md:static md:bg-transparent md:h-full md:w-auto md:max-w-none md:gap-0 md:dark:bg-inherit md:translate-x-0 md:transition-none`}
       >
         {/* --------------------Close Mobile Menu Button--------------------- */}
         {showMenu && (
