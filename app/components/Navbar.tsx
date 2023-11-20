@@ -47,7 +47,7 @@ const Navbar = () => {
       <motion.h3
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 0.5 } }}
-        className="text-[var(--primary)]"
+        className="text-[var(--primary)] text-lg font-bold"
       >
         <a href="#intro">Mike.</a>
       </motion.h3>
