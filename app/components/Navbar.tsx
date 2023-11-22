@@ -124,11 +124,11 @@ const Navbar = () => {
             Contact
           </a>
         </motion.li>
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
           <Button>
             <button>Resume</button>
           </Button>
-        </div>
+        </div> */}
       </motion.ul>
       <motion.div
         initial={{ opacity: 0 }}
@@ -136,9 +136,9 @@ const Navbar = () => {
         className="flex items-center"
       >
         <div className="hidden md:block">
-          <Button>
+          {/* <Button>
             <button>Resume</button>
-          </Button>
+          </Button> */}
         </div>
         <ThemeSwitcher />
         <MenuButton showMenu={showMenu} setShowMenu={setShowMenu} />
