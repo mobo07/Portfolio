@@ -5,6 +5,7 @@ import bespoken from "../assets/projects/bespoken.png";
 import countries from "../assets/projects/countries-app.png";
 import burgerapp from "../assets/projects/burger-app.png";
 import todoapp from "../assets/projects/todo-app.png";
+import dashboard from "../assets/projects/dashboard.png";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -80,6 +81,15 @@ const Projects = () => {
         />
         <ProjectCard
           orientation="right"
+          title="Analytics Dashboard"
+          desc="A nice interactive dashboard with a sleek user interface and user experience that features an interactive chart, sortable table and light/dark mode toggle. Also fully responsive"
+          img={dashboard}
+          stack={["Nextjs", "Tailwind CSS", "Material UI"]}
+          githubLink="https://github.com/mobo07/Analytics-Dashboard"
+          liveURL="https://analytics-dashboard-ht7e.vercel.app"
+        />
+        <ProjectCard
+          orientation="left"
           title="Burger App"
           desc="A web application that enables users to put together and place an order of a tasty burger just the way you like it by adding or removing ingredients of your choice."
           img={burgerapp}
@@ -88,7 +98,7 @@ const Projects = () => {
           liveURL="https://burger-app-brown.vercel.app"
         />
         <ProjectCard
-          orientation="left"
+          orientation="right"
           title="Todo App"
           desc="A beautiful todo web application to help keep track of your tasks."
           img={todoapp}
